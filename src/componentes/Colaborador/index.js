@@ -2,6 +2,7 @@ import './colaborador.css'
 
 const Colaborador = ({ colaborador, corDeFundo }) => {
     return (<div className="colaborador">
+        <div className='deletar'>deletar</div>
         <div className="cabecalho" style={{ backgroundColor: corDeFundo }}>
             <img src={colaborador.imagem} alt={colaborador.nome} />
         </div>
