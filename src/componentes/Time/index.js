@@ -12,6 +12,7 @@ const Time = ({ time, colaboradores, aoDeletar }) => {
         }}
       >
         <h3 style={{ borderColor: time.corSecundaria }}>{time.nome}</h3>
+        <input value={time.corSecundaria} type='color' className="input-color" />
         <div className="colaboradores">
           {colaboradores.map((colaborador, indice) => {
             return (
